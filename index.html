@@ -1,86 +1,32 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Instagram Photo Feed con HTML/CSS</title>
-    <link rel="stylesheet" type="text/css" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  
+  <title>Postcard</title>
 </head>
 <body>
-    <header>
-        <div class="container">
-            <h1>Instagram Photo Feed con HTML/CSS</h1>
-        </div>
-    </header>
-    <div class="container">
-       <div class="post">
-           <div class="post-header">
-              <div> 
-                 <h2>One Piece</h2>
-              </div><div>
-                 <span>12/04</span>
-               </div>  
-           </div>
-           <div>
-               <img src="https://elcomercio.pe/resizer/AB93Kg1JoITGLMLkCgLBnVzg_7g=/980x528/smart/filters:format(jpeg):quality(75)/cloudfront-us-east-1.images.arcpublishing.com/elcomercio/37OWRM2CLBAE7BP5SXKLVMNHZE.jpg">
-           </div>
-           <div>
-               <p>I want to be stronger! And stronger! And then stronger than that! Then I will be able to protect everything… And I will never have to lose anything again</p>
-                <p>This is my photo of the feed. This is a really line commentfor testing purposes <strong>#BreathCode</strong></p>
-           </div>
+    <div class="postcard">
+       <div class="postcard-header">
+          <h1>My postcard</h1>
+          <img src="https://storage.googleapis.com/breathecode-asset-images/5318bde604cf5c915f94897a71b49ab2523101322ea21cb046db1e67c24fa3be.png">
        </div>
-    </div>
-    <div class="container">
-        <div class="post">
-            <div class="post-header">
-               <div> 
-                  <h2>Tibet, between history and myth</h2>
-               </div><div>
-                  <span>12/06</span>
-                </div>  
-            </div>
-            <div>
-                <img src="https://elordenmundial.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2014/09/Captura-de-pantalla-2014-09-28-a-las-12.34.18.png.webp">
-            </div>
-            <div>
-                
-                <p>Tibet is often seen as a legendary place. That mythologized vision still exists, both of its history and its current status.</p>
-            </div>
-        </div>
-     </div>
-     <div class="container">
-        <div class="post">
-            <div class="post-header">
-               <div> 
-                  <h2>James Webb</h2>
-               </div><div>
-                  <span>12/10</span>
-                </div>  
-            </div>
-            <div>
-                <img src="https://imagenes.muyinteresante.es/files/composte_image/uploads/2023/12/20/6582e46dd08ca.jpeg">
-            </div>
-            <div>
-                <p>The James Webb Space Telescope is named for James E. Webb, the second administrator of NASA and a pivotal figure in the Apollo program. Although many have said that it is the scientific successor to the Hubble Space Telescope, it really represents a quantum leap in terms of capabilities.</p>
-            </div>
-        </div>
-     </div>
-     <div class="container">
-        <div class="post">
-            <div class="post-header">
-               <div> 
-                  <h2>Tlaloc the of Rain</h2>
-               </div><div>
-                  <span>12/16</span>
-                </div>  
-            </div>
-            <div>
-                <img src="https://www.gaceta.unam.mx/wp-content/uploads/2021/06/210628-cult3-des-f1-tlaloc-en-europa.jpg">
-            </div>
-            <div>
-                <p>He was the deity of the hills, water and fertility. According to the Nahuatl culture, it governed meteorological phenomena such as lightning, thunder, hail or storms and was frequently associated with caves.</p>
-            </div>
-        </div>
-     </div>
-    </body>
+       <div class="postcard-body">
+          <div class="body-left">
+               <p>look how awesome! This is a postcard that i created using HTML5 and CSS3 during my 4geeks Academy Course!</p>
+               <p>This is so cool, cant wait to start doing more stuff!</p>
+          </div>
+          <div class="body-right">
+               <input type="text" placeholder="Some Name"/>
+               <input type="text" placeholder="Some Email"/>
+               <input type="text" placeholder="Some comment"/>               
+          </div>
+       </div>
+           <div class="postcard-footer">
+               <button>Send My postcard</button> 
+           </div>
+    </div>   
+</body>
 </html>
